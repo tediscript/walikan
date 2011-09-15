@@ -6,10 +6,10 @@ Penjelasan :
     
 Done:
     Sudah bisa menerjemahkan kata sederhana dengan susunan konsonan yang tidak berurutan seperti:
-    - dagadu = matamu
-    - sahan = bapak
-    - pisu = hibu
-    - sonyol = bokong
-    - ireng = piyel
-    - panyu tadhwel = haku gantheng
+    * dagadu = matamu
+    * sahan = bapak
+    * pisu = hibu
+    * sonyol = bokong
+    * ireng = piyel
+    * panyu tadhwel = haku gantheng
 
