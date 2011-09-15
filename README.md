@@ -11,9 +11,5 @@ Done:
     - pisu = hibu
     - sonyol = bokong
     - ireng = piyel
-
-Bug:
-    Belum bisa menerjemahkan kata yang susunan konsonan bertumpuk seperti:
-    - banci
-        banci terdiri dari b, n, c. Belum ada ekstraktor sementara hanya deteksi huruf vokal atau non huruf untuk pop dari stack.
+    - panyu tadhwel = haku gantheng
 

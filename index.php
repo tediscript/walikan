@@ -83,7 +83,16 @@ function convert($text){
     if(in_array(strtolower($text), $dict)){
         return $dict[strtolower($text)];
     } else {
-        return $text;
+        $tmp = str_split($text);
+        $ret = "";
+        foreach($tmp as $t){
+            if(in_array(strtolower($t), $dict)){
+                $ret .= $dict[strtolower($t)];
+            } else {
+                $ret .= $t;
+            }
+        }
+        return $ret;
     }
 }
 
@@ -98,6 +107,9 @@ foreach($items as $item){
     if(isAlpha($item)){
         if(isVocal($item)){
             $result .= convert($stack->popAll()) . $item;
+        } else if($item == strtolower("h")){
+            $stack->push($item);
+            $result .= convert($stack->popAll());
         } else {
             $result .= $stack->push($item);
         }
